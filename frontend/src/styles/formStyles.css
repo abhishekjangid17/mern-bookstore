@@ -1,0 +1,19 @@
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-color: var(--form-bg, #fff);
+  }
+  
+  .form-container input,
+  .form-container textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
