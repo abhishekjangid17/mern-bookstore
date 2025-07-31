@@ -1,8 +1,4 @@
-# FavLib
-
-**FavLib** is a web application that allows users to share and explore their favorite books with others. Built with the MERN stack, JWT authentication, Zustand for state management, and styled using Tailwind CSS, FavLib provides a seamless and visually appealing platform for book enthusiasts.
-
----
+# Bookstore
 
 ## Features
 
@@ -35,85 +31,6 @@
 
 ---
 
-## Getting Started
 
-### Prerequisites
 
-Make sure you have the following installed:
 
-- Node.js
-- npm or yarn
-- MongoDB
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/ezeigboemmanuel/FavLib.git
-   cd favlib
-   ```
-
-2. Install dependencies for both frontend and backend:
-
-   ```bash
-   npm install
-   cd frontend
-   npm install
-   ```
-
-3. Configure environment variables:
-   Create a `.env` file in the `server` directory with the following variables:
-
-   ```env
-   PORT = 5000
-   MONGO_URI=your_mongodb_uri
-   CLIENT_URL=http://localhost:5173
-   JWT_SECRET=your_random_secret
-   CLOUD_NAME=cloudinary_cloud_name
-   API_KEY=cloudinary_apikey
-   API_SECRET=cloudinary_apisecret
-   ```
-
-4. Start the development servers:
-
-   - Backend/Root:
-     ```bash
-     nodemon backend/server.js
-     ```
-   - Frontend:
-     ```bash
-     cd frontend
-     npm run dev
-     ```
-
-5. Open your browser and visit `http://localhost:5173` to access FavLib.
-
----
-
----
-
-## Contributing
-
-Contributions are welcome! Follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add new feature"
-   ```
-4. Push to your branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
